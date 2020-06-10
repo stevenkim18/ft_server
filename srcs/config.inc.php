@@ -14,7 +14,12 @@
  * This is needed for cookie based authentication to encrypt password in
  * cookie. Needs to be 32 chars long.
  */
+
+// add code
 $cfg['blowfish_secret'] = 'Cbb{5u9bL{k3OJ0p36Uvu-zmSnoW}IMs';
+
+// add tmp dir
+$cfg['TempDir'] = '/tmp';
 
 /**
  * Servers configuration
